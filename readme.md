@@ -1,7 +1,7 @@
 # URLShortner v0.0.1
 
 ### What is URL Shortner?
-A URL shortener is an application that converts a regular URL (the web address that starts with http:// ) into its condensed format.
+A URL shortner is an application that converts a regular URL (the web address that starts with http:// ) into its condensed format.
 
 The user only has to copy the full URL of a website and paste it into the URL shortening tool to come up with an abbreviated version that is around 10 to 20 characters long.
 
@@ -15,12 +15,12 @@ The user only has to copy the full URL of a website and paste it into the URL sh
 
 1. Get the latest code
     ```
-    git pull <repo>
+    git pull https://github.com/ronakpatil/url-shortener.git
     ```
 
-2. Navigate to URLShortner directory
+2. Navigate to url-shortener directory
     ```
-    cd URLShortner/
+    cd url-shortener/
     ```
 
 3. Create conda environment
@@ -44,6 +44,8 @@ The user only has to copy the full URL of a website and paste it into the URL sh
     cd app
     python app.py
     ```
+
+    Flask Server should get started on http://127.0.0.1:5000/
 
 7. Open Postman and add this url
    ```
